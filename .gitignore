@@ -1,0 +1,3 @@
+.vscode
+app/secret
+app/__pycache__
