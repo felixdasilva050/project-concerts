@@ -6,7 +6,7 @@ Bem-vindo à documentação do projeto de nosso Bot de Pesquisa de Eventos no Go
 Neste documento, forneceremos uma visão abrangente do projeto, incluindo sua finalidade, funcionalidades, arquitetura, requisitos e instruções de uso. Você aprenderá como nosso bot foi desenvolvido, como ele funciona e como pode ser integrado às suas aplicações ou usos pessoais.
 Os dados estão sendo obtidos pelo site do Recife ingresso. Vale salientar que esse projeto tem cunho completamente acadêmico.
 
-## Requisitos é necessário 
+## Requisitos necessário 
 - ter o python 3.12.0 instalado na sua máquina
 - instalar as seguintes bibliotecas 
 - - flask 
