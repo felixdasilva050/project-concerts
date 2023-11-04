@@ -21,6 +21,10 @@ Os dados estão sendo obtidos pelo site do Recife ingresso. Vale salientar que e
     ```
     pip install requests
     ```
+- - beautifulsoup
+    ```
+    pip install beautifulsoup4
+    ```
 
 ## Dica
 
