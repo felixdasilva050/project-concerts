@@ -8,6 +8,8 @@ Os dados estão sendo obtidos pelo site do Recife ingresso. Vale salientar que e
 
 ## Requisitos necessário 
 - ter o python 3.12.0 instalado na sua máquina
+- ter uma planilha no google sheets
+- um cliente Oauth google com APIs: google drive e google sheet ativadas
 - instalar as seguintes bibliotecas 
 - - flask 
     ```
@@ -32,8 +34,13 @@ recomendamos que utilize algum gerenciador de ambiente virtual como o [conda](ht
 
 ## Como rodar rodar programa
 
-Após as instalar as bibliotecas necessárias basta abrir a pasta app no seu prompt de comando e digitar
-
+Após as instalar as bibliotecas necessárias basta seguir os passos a seguir 
+- criar uma pasta de nome secret
+- baixar o seu token Oauth JSON obtido no Google
+- criar uma pasta com o nome "secret" dentro da pasta "app"
+- mover o token JSON do cliente Oauth Google para dentro da pasta secret
+- renomear o token JSON do cliente Oauth para "client_secret"
+- acesse a pasta app no seu prompt de comando e digite:
 ```
 python app.py
 ```
