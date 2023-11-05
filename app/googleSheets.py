@@ -11,7 +11,7 @@ SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
 # The ID and range of a sample spreadsheet.
 ##page name (the spreadsheet pages have the name of the current year)
-SAMPLE_SPREADSHEET_ID = '1miZCTh4agO_iMbGhuLksBPKTecRerRIdvDdkoc6OArc'
+SAMPLE_SPREADSHEET_ID = 'WRITE_HERE_THE_SPREADSHEET_ID'
 
 def getSpreadSheet():
 
