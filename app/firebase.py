@@ -1,6 +1,7 @@
 import requests
 import json
 
+#If you prefer, change the firebase URL
 URL_FIREBASE = 'https://concerts-estacio-default-rtdb.firebaseio.com/'
 
 ##begin CRUD 
